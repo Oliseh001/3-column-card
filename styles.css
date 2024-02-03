@@ -1,5 +1,4 @@
-
-  html {
+html {
   font-size: 15px;
   max-width: 100%;
   height: 100svh;
@@ -17,7 +16,7 @@ h2 {
   margin: 2rem 0 1rem 3rem;
   font-weight: 700;
   font-size: 2rem;
-  color:  hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
 }
 div {
   width: 100%;
@@ -56,18 +55,23 @@ p {
   color: hsla(0, 0%, 100%, 0.75);
   max-width: 20rem;
   margin: 1.5rem 0 2rem 3rem;
-  padding-right: 9rem;
-  line-height: 1.8;
+  padding-right: 8rem;
+  line-height: 1.6;
+}
+.three > p {
+  padding-right: 8rem;
+  margin-bottom: 2rem;
 }
 a {
   display: block;
+  font-family: "Lexend Deca", sans-serif;
   text-decoration: none;
   margin: 1.5rem 0 2rem 3rem;
   padding-top: 0.6rem;
   width: 8rem;
   height: 2rem;
   border: 1px solid transparent;
-  background-color:  hsl(0, 0%, 95%);
+  background-color: hsl(0, 0%, 95%);
   border-radius: 20px;
   text-align: center;
 }
@@ -80,30 +84,30 @@ a {
 .tag-three {
   color: hsl(179, 100%, 13%);
 }
-a:hover{
-    color:  hsl(0, 0%, 95%);
-    background-color: transparent;
-    border: 1px solid  hsl(0, 0%, 95%);
-    transition: all 0.3s ease-in-out;
+a:hover {
+  color: hsl(0, 0%, 95%);
+  background-color: transparent;
+  border: 1px solid hsl(0, 0%, 95%);
+  transition: all 0.3s ease-in-out;
 }
-@media (min-width: 1024px){
-    body{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    div{
-        max-width: 1036px; /*to make the div stay and avoid uneccessary gaps*/
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        gap: 0;
-    }
-    .one{
-        border-top-right-radius: 0px;
-        border-bottom-left-radius: 15px;
-    }
-    .three{
-        border-bottom-left-radius: 0px;
-        border-top-right-radius: 15px;
-    }
+@media (min-width: 1024px) {
+  html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div {
+    max-width: 1023px; /*to make the div stay and avoid uneccessary gaps*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+  }
+  .one {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 15px;
+  }
+  .three {
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 15px;
+  }
 }
