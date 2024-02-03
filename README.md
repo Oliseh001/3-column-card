@@ -26,7 +26,8 @@ Users should be able to:
 
 ### Links
 
-<!-- - Live Site URL: [3-column card preview](https://oliseh001.github.io/Social-links/) -->
+- Live Site URL: [3-column card preview](https://oliseh001.github.io/3-column-card/
+)
 
 ## My process
 
@@ -50,6 +51,6 @@ h2 {
 
 ## Author
 
-- Website - [Victory Olise](https://oliseh001.github.io/Social-links/)
+- Website - [Victory Olise](https://oliseh001.github.io/3-column-card/)
 - Frontend Mentor - [@Oliseh001](https://www.frontendmentor.io/profile/Oliseh001)
 ```
