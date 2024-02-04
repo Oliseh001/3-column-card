@@ -19,7 +19,7 @@ h2 {
   color: hsl(0, 0%, 95%);
 }
 div {
-  width: 100%;
+  max-width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
